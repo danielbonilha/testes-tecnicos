@@ -23,7 +23,4 @@ Iterator é uma interface, que possui os méteodos
 
 # Exemplos
 [0, 5, 10, 15, 20] retorna 5
-
-# Testar:
-mvn '-Dtest=iniciante.loops.c.WhileLoopTest' test
  */

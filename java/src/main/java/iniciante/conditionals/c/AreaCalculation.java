@@ -37,7 +37,4 @@ Em java, o valor de A ao quadrado Pode ser calculado pelo pacote Math.pow().
 
 Para descobrir qual o tipo da classe que representa a forma vc deve usar
 o "instanceof".
-
-# Testar:
-mvn '-Dtest=iniciante.conditionals.c.AreaCalculationTest' test
  */

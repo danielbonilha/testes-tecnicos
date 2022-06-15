@@ -49,6 +49,6 @@ public class PrintIfMultipleTest {
     public void multipleOfNone()
     {
         printIfMultiple.printMultiples(11);
-        assertEquals("", outputStreamCaptor.toString().trim());
+        assertEquals("Nenhum multiplo", outputStreamCaptor.toString().trim());
     }
 }

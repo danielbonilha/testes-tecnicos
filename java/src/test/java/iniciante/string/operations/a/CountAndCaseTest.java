@@ -25,5 +25,4 @@ public class CountAndCaseTest
         String result = manipulation.manipulate("", "");
         assertEquals(expectedString, result);
     }
-
 }

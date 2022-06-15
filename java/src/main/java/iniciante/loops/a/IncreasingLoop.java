@@ -23,7 +23,4 @@ for (int i : items) { ... }
 
 # Exemplos
 Items [0, 5, 10, 15, 20] retorna 45, pois é a soma de 10, 15 e 20.
-
-# Testar:
-mvn '-Dtest=iniciante.loops.a.IncreasingLoopTest' test
  */

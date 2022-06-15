@@ -36,7 +36,4 @@ String 1: Amora
 String 2: Abacaxi
 
 Retorna: 12AMORAabacaxi
-
-# Testar:
-mvn '-Dtest=iniciante.string.operations.a.CountAndCase' test
  */

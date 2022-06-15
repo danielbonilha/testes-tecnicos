@@ -27,7 +27,4 @@ nas tomadas de decisão.
 
 # Exemplos
 Um  veículo não-oficial com 4 rodas retorna 5.20.
-
-# Testar:
-mvn '-Dtest=iniciante.conditionals.b.TollTest' test
 */

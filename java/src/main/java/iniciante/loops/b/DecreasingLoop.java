@@ -25,7 +25,4 @@ Para adicionar um item na nova lista use 'reversedItems.add(...)'
 
 # Exemplos
 Items [0, 5, 10, 15, 20] retorna [20, 15, 10, 5, 0].
-
-# Testar:
-mvn '-Dtest=iniciante.loops.b.DecreasingLoopTest' test
  */
