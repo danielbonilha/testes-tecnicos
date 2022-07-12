@@ -48,6 +48,7 @@ Os testes disponíveis são:
 - Condicionais
 - Loops
 - Manipulação de strings
+- Algorítmos
 
 Complete o código nos arquivos abaixo.
 Depois, para cada arquivo completado, rode os testes para verificar.
@@ -66,3 +67,10 @@ Depois, para cada arquivo completado, rode os testes para verificar.
 - src/java/iniciante/string/operations/a/CountAndCase.java
 - src/java/iniciante/string/operations/b/Substring.java
 - src/java/iniciante/string/operations/c/StartsEndsWith.java
+
+#### Algorítmos
+- src/java/iniciante/algorithms/palindrome/Palindrome.java
+
+Os arquivos de teste ficam em
+- src/test/iniciante/{package}/{ClassName}Test.java
+- exemplo: src/test/iniciante/algorithms/palindrome/PalindromeTest.java
