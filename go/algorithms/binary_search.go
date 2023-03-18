@@ -1,7 +1,5 @@
 package algorithms
 
-import "fmt"
-
 // BinarySearch searches for a number in an ordered array
 // accepts the number to be found and an ordered array
 // return the index of the number, or -1 if not found
@@ -10,7 +8,6 @@ func BinarySearch(number int, arr []int) int {
 	max := len(arr) - 1
 
 	for {
-		fmt.Println("Executed an instruction")
 		if max < min {
 			return -1
 		}
