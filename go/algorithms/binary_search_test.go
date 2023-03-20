@@ -58,7 +58,6 @@ func TestBinarySearchEmptyList(t *testing.T) {
 }
 
 func TestBinarySearchNegativeNumbersMatch(t *testing.T) {
-	//primes := []int{-2, -3, -5, -7, -11, -13, -17, -19, -23, -29, -31, -37, -41, -43, -47, -53, -59, -61, -67, -71, -73, -79, -83, -89, -97}
 	primes := []int{-97, -89, -83, -79, -73, -71, -67, -61, -59, -53, -47, -43, -41, -37, -31, -29, -23, -19, -17, -13, -11, -7, -5, -3, -2}
 	number := -67
 	expected := 6
