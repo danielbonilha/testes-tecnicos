@@ -2,6 +2,14 @@ package arrays
 
 import "github.com/danielbonilha/testes-tecnicos/algorithms"
 
+// MaxOccurrences given an array, count the occurrences
+// of a given number and return it
+//
+// Example:
+//
+// Array: [1, 2, 2, 3, 3, 3, 3, 4, 4, 4]
+// Number: 3
+// Expected: 4 (occurrences)
 func MaxOccurrences(arr []int, number int) int {
 	index := algorithms.BinarySearch(number, arr)
 	if index == -1 {
@@ -28,12 +36,3 @@ func MaxOccurrences(arr []int, number int) int {
 
 	return count
 }
-
-// Encontre o número de ocorrências de um
-// determinado número em um array ordenado
-
-// Exemplo:
-
-// Array: [1, 2, 2, 3, 3, 3, 3, 4, 4, 4]
-// Número: 3
-// Resultado: 4 (ocorrências)
