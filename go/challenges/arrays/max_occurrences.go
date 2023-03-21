@@ -1,4 +1,4 @@
-package algorithms
+package arrays
 
 func MaxOccurrences(arr []int, number int) int {
 	return -2
