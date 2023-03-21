@@ -1,7 +1,9 @@
 package arrays
 
+import "github.com/danielbonilha/testes-tecnicos/algorithms"
+
 func MaxOccurrences(arr []int, number int) int {
-	index := BinarySearch(number, arr)
+	index := algorithms.BinarySearch(number, arr)
 	if index == -1 {
 		return 0
 	}
