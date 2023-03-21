@@ -1,17 +1,18 @@
 package arrays
 
 func MaxSubArray(arr []int) int {
-	currentSum := 0
 	max := 0
+	current := 0
+
 	for i := 0; i < len(arr); i++ {
-		max = max + arr[i]
-		if currentSum < max {
-			currentSum = max
+		current = current + arr[i]
+		if current > max {
+			max = current
 		}
-		if max < 0 {
-			max = 0
+		if current < 0 {
+			current = 0
 		}
 	}
 
-	return currentSum
+	return max
 }

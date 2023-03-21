@@ -34,3 +34,14 @@ func TestMaxOccurrencesEdgeCase(t *testing.T) {
 		t.Errorf("Error, expected %v, got %v", expected, result)
 	}
 }
+
+func TestMaxOccurrencesEmptyList(t *testing.T) {
+	arr := []int{}
+	number := 1
+	expected := 0
+
+	result := MaxOccurrences(arr, number)
+	if result != expected {
+		t.Errorf("Error, expected %v, got %v", expected, result)
+	}
+}
